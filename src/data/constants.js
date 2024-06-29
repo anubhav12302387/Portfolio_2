@@ -365,7 +365,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+    img: lpu,
     school: "Lovely Professional University, Punjab",
     date: "Aug 2023 - Sep 2027",
     grade: "8.41 CGPA",
@@ -374,7 +374,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+    img: aug,
     school: "ST. Augustine's Day School, Kolkata",
     date: "Apr 2021 - Apr 2023",
     grade: "88.2%",
@@ -383,12 +383,12 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+    img: tpes,
     school: "The Park English School, Kolkata",
     date: "Apr 2011 - Apr 2021",
     grade: "92.3%",
     desc: "I completed my class 10 education at The Park English School, Kolkata, where I studied Science with Computer Application.",
-    degree: "ICSC(X), Science with Computer",
+    degree: "ICSE(X), Science with Computer",
   },
 ];
 
