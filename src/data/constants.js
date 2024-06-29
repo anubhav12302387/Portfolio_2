@@ -307,7 +307,7 @@ export const experiences = [
     role: "ISP @ Internshala",
     company: "Internshala",
     date: "Feb 2024 - Apr 2024",
-    desc: "Built Flipr Connect Platforms using React Js integrated GraphQL with AXIOS, created High level Design and Figma design. Built Backend with GraphQL and Node JS and connected with MongoDb - Reducing API calls by 20%. Dockerized and automated with Kubernetes & Jenkins CI/CD deployed in AWS-EC2 added Prometheus & Grafana for monitoring.",
+    desc: "Being an ISP is not just a title; it’s a commitment to bridging the gap between students and opportunities. Through this program, I am gaining invaluable skills in leadership, marketing, and communication, all while helping my peers discover amazing internships and trainings that can shape their careers.",
     skills: [
       "Docker",
       "Terraform",
