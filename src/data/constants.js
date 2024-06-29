@@ -17,8 +17,8 @@ export const Bio = {
   description:
     "I am a passionate and adaptable web developer, always excited to tackle new coding challenges. With a love for continuous learning, I strive to deliver high-quality, efficient, and innovative web solutions. Armed with a positive attitude and a growth mindset, I am ready to make a significant impact in the tech world and achieve remarkable advancements in web development.",
   github: "https://github.com/anubhav12302387",
-  resume:
-    "https://drive.google.com/file/d/1txFKZD3LNIXMc329jD9c995AU8LItOXK/view?usp=drive_link",
+  resume: "https://drive.google.com/file/d/1bsZLqcKDUCWYRa-jgnx56MTXuHHE-G0F/view?usp=sharing",
+   
   linkedin: "https://www.linkedin.com/in/anubhav-jaiswal-47bb50283/",
   twitter: "https://x.com/Anubhavjai68749",
   insta: "https://www.instagram.com/anubhavjaiswal?igsh=MWM3dnp5emg4ZjRveQ==",
