@@ -1,13 +1,16 @@
 import styled, { ThemeProvider } from "styled-components";
 import { darkTheme } from "./utils/Themes";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Sections/Hero"; // Make sure Hero component is imported
+import Hero from "./components/Sections/Hero"; 
 import { BrowserRouter } from "react-router-dom";
 import Skills from "./components/Sections/Skills";
 import Experience from "./components/Sections/Experience";
 import Education from "./components/Sections/Eduaction";
-import DogCat from "./components/canvas/Stars";
+// import DogCat from "./components/canvas/Stars";
 import Contact from "./components/Sections/Contact";
+import Footer from "./components/Sections/Footer";
+import Sparkles from "./assets/sss";
+// import StarCanvas from "../canvas/Stars";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -40,7 +43,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Body>
-          <DogCat />
+          <Sparkles />
           <div>
           <Hero />
           <Wrapper>
@@ -51,6 +54,7 @@ function App() {
           <Education />
           <Contact />
           </Wrapper>
+          <Footer />
           </div>
         </Body>
       </BrowserRouter>
