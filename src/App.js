@@ -3,6 +3,8 @@ import { darkTheme } from "./utils/Themes";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Sections/Hero"; // Make sure Hero component is imported
 import { BrowserRouter } from "react-router-dom";
+import Skills from "./components/Sections/Skills";
+import Experience from "./components/Sections/Experience";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -20,6 +22,8 @@ function App() {
         <Navbar />
         <Body>
           <Hero />
+          <Skills />
+          <Experience />
         </Body>
       </BrowserRouter>
     </ThemeProvider>
