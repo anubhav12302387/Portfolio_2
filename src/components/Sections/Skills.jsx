@@ -126,7 +126,7 @@ const Skills = () => {
           }}
         >
           Here are some of my skills on which I have been working on for the
-          past 3 years.
+          past 2 years.
         </Desc>
 
         <SkillsContainer>
