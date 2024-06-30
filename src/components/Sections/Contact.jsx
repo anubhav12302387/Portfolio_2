@@ -112,10 +112,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_tox7kqs",
-        "template_nv7k7mj",
+        "service_dj0jf34", // service id
+        "template_swa9t7e", // template id
         form.current,
-        "SybVGsYS52j2TfLbi"
+        "8PrOEeWhaS6AN1v0d" // token id
       )
       .then(
         (result) => {
