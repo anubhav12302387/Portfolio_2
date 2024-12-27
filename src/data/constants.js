@@ -5,6 +5,7 @@ import aws from "../assets/1680922685185.jpeg";
 import lpu from "../assets/lpu.jpeg";
 import aug from "../assets/xiischool.jpeg";
 import tpes from "../assets/tpes.png";
+import bluestocks from "../images/bluestocks.jpg";
 
 export const Bio = {
   name: "Anubhav Jaiswal",
@@ -204,10 +205,83 @@ export const skills = [
     ],
   },
 ];
-
+// Beinning of the experience data
 export const experiences = [
   {
     id: 0,
+    img: bluestocks,
+    role: "SDE Intern",
+    company: "Bluestocks",
+    date: "Jan 2025 - present",
+    desc: "I am currently working as a Software Development Engineer Intern at Bluestocks, where I am gaining hands-on experience in building and maintaining web applications. I am working with a team of talented developers to create innovative solutions that meet the needs of our clients. I am also learning new technologies and tools to enhance my skills as a software engineer.",
+    skills: [
+      "ReactJS",
+      "NodeJS",
+      "MongoDB",
+      "ExpressJS",
+    ],
+    
+  },
+
+  {
+    id: 1,
+    img: aws,
+    role : "Operations Lead",
+    company: "AWS Cloud Club LPU",
+    date: "Mar 2024 - Present",
+    desc: "I am currently serving as the Operations Lead at AWS Cloud Club LPU, where I am responsible for managing the day-to-day operations of the club. I work closely with the club Captain as well as Community Lead and other team members to plan and execute events, workshops, and other activities that help students learn about cloud computing and other emerging technologies. I also mentor new members and help them develop their skills in cloud computing and related areas.",
+    skills: [
+      "Leadership",
+      "Web Application Development",
+      "React Js",
+      "CSS3",
+      "HTML5",
+    ],
+  },
+  
+  {
+    id: 2,
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
+    role: "Open Source Contributor ",
+    company: "GirlScript Summer of Code",
+    date: "May 2024 - Present",
+    desc: "Contributed to different open-source projects and learn from industry experts",
+  },
+  
+  {
+    id: 3,
+    img: devtown,
+    role: "Campus Ambassador",
+    company: "Devtown",
+    date: "Apr 2024 - Jun 2024",
+    desc: "Being part of this amazing community has been a transformative experience, filled with learning, networking, and growth. I've had the opportunity to work with incredible peers, gain valuable skills, and contribute to spreading tech education on campus.",
+    skills: [
+      "Community Development",
+      "Member Development",
+      "Brand Ambassadorship",
+      "Networking",
+    ],
+    
+  },
+  
+  {
+    id: 4,
+    img: internshala,
+    role: "ISP @ Internshala",
+    company: "Internshala",
+    date: "Feb 2024 - Apr 2024",
+    desc: "Being an ISP is not just a title; it's a commitment to bridging the gap between students and opportunities. Through this program, I am gaining invaluable skills in leadership, marketing, and communication, all while helping my peers discover amazing internships and trainings that can shape their careers.",
+    skills: [
+      "Community Development",
+      "Member Development",
+      "Brand Ambassadorship",
+      "Networking",
+    ],
+    
+  },
+
+  {
+    id: 5,
     img: neurobit,
     role: "Frontend Intern",
     company: "CodSoft",
@@ -223,59 +297,6 @@ export const experiences = [
       "JavaScript",
     ],
    
-  },
-  {
-    id: 1,
-    img: internshala,
-    role: "ISP @ Internshala",
-    company: "Internshala",
-    date: "Feb 2024 - Apr 2024",
-    desc: "Being an ISP is not just a title; it's a commitment to bridging the gap between students and opportunities. Through this program, I am gaining invaluable skills in leadership, marketing, and communication, all while helping my peers discover amazing internships and trainings that can shape their careers.",
-    skills: [
-      "Community Development",
-      "Member Development",
-      "Brand Ambassadorship",
-      "Networking",
-    ],
-    
-  },
-  {
-    id: 2,
-    img: devtown,
-    role: "Campus Ambassador",
-    company: "Devtown",
-    date: "Apr 2024 - Jun 2024",
-    desc: "Being part of this amazing community has been a transformative experience, filled with learning, networking, and growth. I've had the opportunity to work with incredible peers, gain valuable skills, and contribute to spreading tech education on campus.",
-    skills: [
-      "Community Development",
-      "Member Development",
-      "Brand Ambassadorship",
-      "Networking",
-    ],
-    
-  },
-
-  {
-    id: 4,
-    img: aws,
-    company: "AWS Cloud Club LPU",
-    date: "Mar 2024 - Present",
-    desc: "As a Web Application Developer at the AWS Cloud Club LPU, I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with AWS Cloud Club LPU, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
-    skills: [
-      "Leadership",
-      "Web Application Development",
-      "React Js",
-      "CSS3",
-      "HTML5",
-    ],
-  },
-  {
-    id: 5,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-    role: "Open Source Contributor ",
-    company: "GirlScript Summer of Code",
-    date: "May 2024 - Present",
-    desc: "Contributed to different open-source projects and learn from industry experts",
   },
 ];
 
